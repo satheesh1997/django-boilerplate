@@ -20,7 +20,7 @@ def stop_coverage(cov):
 
 
 def main():
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings.local")
     cov = coverage.coverage(source=["apps"], omit=["*/tests/*"])
     test_mode = "test" in sys.argv
 

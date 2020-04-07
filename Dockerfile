@@ -22,7 +22,7 @@ RUN python manage.py collectstatic --noinput
 
 RUN chown -R www-data:www-data /root
 
-EXPOSE 8020
+EXPOSE 80
 
 STOPSIGNAL SIGTERM
 

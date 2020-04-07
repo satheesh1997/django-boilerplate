@@ -9,6 +9,6 @@ Steps to setup this code:
 
 Steps to run in docker:
     1. docker build -t webapp .
-    2. docker run -it -p 8020:8020 webapp
+    2. docker run -it -p 80:80 webapp
 
 Note: This runs in with settings.production inside docker.
